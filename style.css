@@ -2,10 +2,7 @@ body{
     background-color: #222852;
     font-family: Arial, Helvetica, sans-serif;
     color: #cfd8dc;
-}
-.degrde{
-    background:linear-gradient(to right,red,yellow);
-}
+}
 div,header{
     background-color: #cfd8dc;
     text-align: justify;
