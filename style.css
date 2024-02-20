@@ -1,4 +1,4 @@
-body{
+*/body{
     background-color: #222852;
     font-family: Arial, Helvetica, sans-serif;
     color: #cfd8dc;
@@ -39,4 +39,93 @@ nav{
     width: auto;
     border-radius: 3%;
     text-align: center;
+}
+*/
+body {
+    background: linear-gradient(135deg, #999999, #666666);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: #444444;
+    color: #ffffff;
+    width: 250px;
+    height: 100vh;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+div, header, nav {
+    background: linear-gradient(135deg, #333333, #555555);
+    text-align: justify;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+}
+
+button {
+    background: linear-gradient(135deg, #999999, #777777);
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+img {
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.perfil_index {
+    border-radius: 50px;
+}
+
+/* Elementos com tons de azul */
+.link {
+    color: #0099ff; /* Azul claro */
+}
+
+a:hover {
+    color: #0066cc; /* Azul mais escuro no hover */
+}
+
+/* Exemplo de elemento com fundo azul */
+.blue-background {
+    background-color: #0077cc; /* Azul médio */
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
 }
