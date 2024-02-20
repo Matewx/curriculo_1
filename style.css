@@ -1,42 +1,62 @@
-body{
-    background-color: #222852;
+body {
+    background: linear-gradient(135deg, #4e4376, #2b5876);
     font-family: Arial, Helvetica, sans-serif;
-    color: #cfd8dc;
-}
-div,header{
-    background-color: #cfd8dc;
+    color: #ffffff;
+    overflow-x: hidden; /* Para impedir a barra de rolagem horizontal */
+}
+
+div, header {
+    background: linear-gradient(135deg, #ffffff, #dcdcdc);
     text-align: justify;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-}
-button{
-    background-color: #aa1f2b;
-    color: #e5eef6;
-    border-radius: 10px;
-}
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
-img{
-    border-radius: 30px;
-}
-.link{
-    text-decoration: none;
-    color: #e5eef6;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
-.perfil_index{
+button {
+    background: linear-gradient(135deg, #ef8e38, #f36f5d);
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    transition: all 0.3s ease; /* Adiciona uma transição suave */
+}
+
+button:hover {
+    transform: translateY(-2px); /* Efeito de elevação no hover */
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75); /* Aumenta a sombra no hover */
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+img {
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.perfil_index {
     border-radius: 50px;
 }
-nav{
-    background-color: #aa1f2b;
-    color: #cfd8dc;
+
+nav {
+    background: linear-gradient(135deg, #ef8e38, #f36f5d);
+    color: #ffffff;
     width: auto;
     border-radius: 3%;
     text-align: center;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
