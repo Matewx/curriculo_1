@@ -1,42 +1,82 @@
-body{
-    background-color: #222852;
+body {
+    background: linear-gradient(135deg, #000000, #000033);
     font-family: Arial, Helvetica, sans-serif;
-    color: #cfd8dc;
+    color: #ffffff;
+    overflow-x: hidden;
+    margin: 0;
 }
-div,header{
-    background-color: #cfd8dc;
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: #222266; /* Azul escuro */
+    color: #ffffff;
+    width: 250px;
+    height: 100vh;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+div, header, nav {
+    background: linear-gradient(135deg, #000033, #000066); /* Azul escuro para azul médio */
     text-align: justify;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-}
-button{
-    background-color: #aa1f2b;
-    color: #e5eef6;
-    border-radius: 10px;
-}
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
-img{
-    border-radius: 30px;
-}
-.link{
-    text-decoration: none;
-    color: #e5eef6;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
 }
 
-.perfil_index{
+button {
+    background: linear-gradient(135deg, #000066, #000099); /* Azul médio para azul mais claro */
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+img {
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.link {
+    color: #0099cc; /* Azul */
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #0077b3; /* Azul mais escuro no hover */
+}
+
+.perfil_index {
     border-radius: 50px;
 }
-nav{
-    background-color: #aa1f2b;
-    color: #cfd8dc;
-    width: auto;
-    border-radius: 3%;
-    text-align: center;
+
+.blue-background {
+    background-color: #004080; /* Azul escuro */
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
 }
